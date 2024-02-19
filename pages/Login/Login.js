@@ -23,9 +23,13 @@ const template = () => `
 const addListeners = () => {
   const buttonLogin = document.getElementById("buttonLogin");
   const username = document.getElementById("username");
-  buttonLogin.addEventListener("click", (e) => {
-    const valueInput = username.value;
+  const expresionRegular = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+  buttonLogin.addEventListener("click", (e) => {
+
+    
+    const valueInput = username.value;
+    if(expresionRegular.test(valueInput)){
    
     if (localStorage.getItem(`${valueInput}USER`)) {
       const localUser = localStorage.getItem(`${valueInput}USER`);
@@ -55,9 +59,15 @@ const addListeners = () => {
 
       setUser(`${valueInput}USER`);
       setUserData(customUser);
-    }
+      }
+    
 
     initControler();
+  }
+  else{
+    alert("Formato de correo no válido")
+  }
+
   });
 };
 

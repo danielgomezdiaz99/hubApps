@@ -16,6 +16,11 @@
       height: auto;
       max-height: 50vh;
   }
+
+  .menu-container img:hover {
+    cursor: pointer; 
+  transform: scale(1.1); 
+  }
   
   
   .menu-container h2 {

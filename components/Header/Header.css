@@ -18,6 +18,12 @@ header {
   
   .imgCabecera {
     width: 90%;
+
+  }
+
+  .imgCabecera:hover{
+    cursor: pointer; 
+  transform: scale(1.1); 
   }
   
   .icon {
