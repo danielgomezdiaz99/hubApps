@@ -1,11 +1,14 @@
 import { getData } from "../../global/state/globalState";
+import { getUser } from "../../global/state/globalState";
+
 import { getInfo,initControler } from "../../utils";
 import "./Dashboard.css";
 import imagen from '../../img/pokeball.png';
 import hanman from '../../img/hanman.png';
-
-
+const userState = getUser().name;
+console.log(userState)
 const template = () => `
+<h2 class="welcome">Bienvenido ${userState}</h2>
 <div class="menu-container">
   <div class="menu1">
       <h2>Poke-Api</h2>
