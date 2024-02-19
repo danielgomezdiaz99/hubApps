@@ -1,0 +1,76 @@
+
+.game-container{
+    display: flex;
+}
+#game-container h2{
+    margin-top: 5vh;
+ text-align: center;
+ margin-bottom: 7vh;
+}
+.vidas h3 {
+    margin-top: 5vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.juego input {
+    width: 5vh;
+    margin-left: 5%;
+    height: 3vh;
+    border-bottom: 2px solid white;
+    background-color: #242424;
+    text-align: center;
+}
+
+.juego{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+   
+}
+
+.juego.img{
+    width: 100%;
+      height: auto;
+      max-height: 50vh;
+}
+
+.respuesta {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+#letra{
+    margin-bottom: 3vh;
+    width: 4vh;
+    background-color: white;
+    margin-left: 1vh;
+    color: black;
+    
+}
+@media (max-width: 655px) {
+    .juego input {
+        width: 2vh;
+        margin-right: 2%;
+        height: 3vh;
+    }
+  }
+
+.letras{
+    display: flex;
+}
+.imagen-juego{
+    max-width: 100%; 
+    height: auto; 
+}
+
+.imagen-juego img{
+    width: 100%; 
+    height: auto;
+}

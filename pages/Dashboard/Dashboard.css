@@ -1,0 +1,22 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    height: 75vh;
+  
+  }
+  
+  .menu-container img {
+    width: 100%;
+      height: auto;
+      max-height: 50vh;
+  }
+  
+  
+  .menu-container h2 {
+    text-align: center;
+  }
+
+ 

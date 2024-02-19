@@ -1,0 +1,143 @@
+
+.figurePokemon {
+  width: 200px;
+  height: 280px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: rem;
+
+  & img {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+.like {
+  color: red;
+}
+
+.grass {
+  background-image: url("../../img/grass.jpg");
+}
+figure.grass {
+  border: 10px solid #63bb5b;
+}
+
+figure.bug {
+  border: 10px solid #8fc12c;
+}
+.bug {
+  background-image: url("../../img/bug.jpg");
+}
+
+figure.dark {
+  border: 10px solid #5a5366;
+}
+.dark {
+  background-image: url("../../img/dark.jpg");
+}
+figure.dragon {
+  border: 10px solid #0a6dc4;
+}
+.dragon {
+  background-image: url("../../img/dragon.jpg");
+}
+figure.electric {
+  border: 10px solid #f3d13b;
+}
+.electric {
+  background-image: url("../../img/electric.jpg");
+}
+
+figure.fairy {
+  border: 10px solid #ec8fe6;
+}
+.fairy {
+  background-image: url("../../img/fairy.jpg");
+}
+figure.fighting {
+  border: 10px solid #ce4068;
+}
+.fighting {
+  background-image: url("../../img/fighting.jpg");
+  color: black;
+}
+
+figure.fire {
+  border: 10px solid #ff9b54;
+}
+.fire {
+  background-image: url("../../img/fire.jpg");
+}
+
+figure.flying {
+  border: 10px solid #8fa8dd;
+}
+.flying {
+  background-image: url("../../img/flying.jpg");
+}
+figure.flying {
+  border: 10px solid #5269ac;
+}
+.ghost {
+  background-image: url("../../img/ghost.jpg");
+}
+
+figure.ground {
+  border: 10px solid #d97746;
+}
+.ground {
+  background-image: url("../../img/ground.jpg");
+}
+figure.ice {
+  border: 10px solid #74cec1;
+}
+.ice {
+  background-image: url("../../img/ice.jpg");
+  color: black;
+}
+figure.normal {
+  border: 10px solid #9099a1;
+}
+.normal {
+  background-image: url("../../img/normal.jpg");
+ 
+}
+
+figure.poison {
+  border: 10px solid #aa6ac8;
+}
+.poison {
+  background-image: url("../../img/poison.jpg");
+}
+
+figure.psychic {
+  border: 10px solid #f97176;
+}
+.psychic {
+  background-image: url("../../img/psychic.jpg");
+}
+figure.rock {
+  border: 10px solid #c7b78b;
+}
+.rock {
+  background-image: url("../../img/rock.jpg");
+}
+
+figure.steel {
+  border: 10px solid #5a8ea1;
+}
+.steel {
+  background-image: url("../../img/steel.jpg");
+}
+figure.water {
+  border: 10px solid #4d91d5;
+}
+.water {
+  background-image: url("../../img/water.jpg");
+  color: black;
+}
+
