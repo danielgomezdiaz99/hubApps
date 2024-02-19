@@ -1,10 +1,16 @@
+:root {
+  --login-color: rgb(10, 179, 10);
+  --login-item-color: #ffff;
+  --button-color :#00B9BC;
+}
+
 .login {
     margin-left: auto;
     margin-right: auto;
     margin-top: 9vh;
     width: 30%;
     height: 61vh;
-    background-color: rgb(10, 179, 10);
+    background-color: var(--login-color);
     display: flex;
     flex-direction: column;
 
@@ -35,7 +41,7 @@
   }
   
   .login-item {
-    color: #ffff;
+    color: var(--login-item-color);
     padding: 25px 25px 0;
     margin: 20px 20px 0;
     border-radius: 3px;
@@ -99,7 +105,7 @@
   }
   
   .form-login input[type="submit"] {
-    background-color: #00B9BC;
+    background-color: var(--button-color);
     color: #eee;
     font-weight: bold;
     text-transform: uppercase;
